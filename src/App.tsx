@@ -53,10 +53,10 @@ function App() {
   const tweetUrl = "https://twitter.com/intent/tweet?text=" + quote.text + " By " + quote.author;
   
   // this should be fixed to this actual webpage link with the params
-  const hostLink = "https://kevinelguapo.github.io/kevinelguapo.io/"
+  // const hostLink = "https://kevinelguapo.github.io/kevinelguapo.io/"
 
-  const encodedQuote = encodeURIComponent(`${quote.text} - ${quote.author}`);
-  const facebookUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(`${hostLink}`)}&quote=${encodedQuote}`;
+  // const encodedQuote = encodeURIComponent(`${quote.text} - ${quote.author}`);
+  // const facebookUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(`${hostLink}`)}&quote=${encodedQuote}`;
 
 
   return (
