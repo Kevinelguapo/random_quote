@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 
 import './App.css'
-import { FaTwitter, FaFacebook, FaQuoteLeft, FaQuoteRight } from "react-icons/fa"
+import { FaTwitter, FaQuoteLeft, FaQuoteRight } from "react-icons/fa"
 import "bootstrap/dist/css/bootstrap.min.css";
 
 
